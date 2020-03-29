@@ -5,8 +5,8 @@ export default function ScreenTab() {
   return (
     <SafeAreaView style={styles.screen}>
       <View style={styles.container}>
-        <Text style={styles.title}>Hola mundo</Text>
-        <Text style={styles.text}>By Henry Villavicencio</Text>
+        <Text style={styles.title}>Screen2: Settings</Text>
+        <Text style={styles.text}>By Franco Cespi</Text>
         <Image
           style={styles.logo}
           source={require("../assets/img/initgrammers.png")}

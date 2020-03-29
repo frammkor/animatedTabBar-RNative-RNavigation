@@ -1,7 +1,13 @@
 import React from "react";
+
 import { NavigationContainer } from "@react-navigation/native";
-import Screen from "./src/screens/Screen";
+
+import BottomTabNavigator from './src/navigation/BottomTabNavigator';
 
 export default function App() {
-  return <Screen />;
+  return (
+    <NavigationContainer>
+      <BottomTabNavigator />
+    </NavigationContainer>
+  );
 }
